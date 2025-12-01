@@ -1,19 +1,18 @@
+# 🚀 Parallel Dijkstra's Algorithm (OpenMP + MPI)
 
-# Parallel Dijkstra's Algorithm (OpenMP + MPI)
+## 📌 Overview
+This project implements **Dijkstra’s shortest path algorithm** in three versions:
+- **Sequential** (baseline)
+- **Parallel with OpenMP**
+- **Parallel with MPI**
 
-## Overview
-This project implements Dijkstra’s shortest path algorithm in three versions:
-- Sequential
-- Parallel using OpenMP
-- Parallel using MPI
+The goal is to compare performance and scalability across different parallelization strategies. Benchmarks and visualizations are included to demonstrate speedup and efficiency.
 
-## Features
-- Compare performance across different parallelization strategies
-- Benchmark results included (`results_openmp.csv`, `mpi_results.txt`)
-- Visual outputs (`output1.png`, `output2.png`, `output3.png`)
+---
 
-## Installation
-```bash
-gcc -fopenmp openmp_dijkstra.c -o openmp_dijkstra
-mpicc mpi_openmp_dijkstra.c -o mpi_dijkstra
-
+## 🛠 Features
+- Sequential baseline for correctness verification  
+- OpenMP implementation for shared-memory parallelism  
+- MPI implementation for distributed-memory parallelism  
+- Performance benchmarking with CSV logs and plots  
+- Jupyter Notebook for analysis and visualization  
