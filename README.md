@@ -1,4 +1,4 @@
-# 🚀 Parallel Dijkstra's Algorithm (OpenMP + MPI)
+# 🚀 Parallel Dijkstra's Algorithm (OpenMP + MPI + CUDA)
 
 ## 📌 Overview
 This project implements **Dijkstra’s shortest path algorithm** in three versions:
