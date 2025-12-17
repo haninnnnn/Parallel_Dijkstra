@@ -1,3 +1,0 @@
-graph_size,1000,mpi_procs,1,time,0.012978
-graph_size,1000,mpi_procs,2,time,3.162817
-graph_size,1000,mpi_procs,4,time,36.594471
